@@ -1,0 +1,13 @@
+<div class="text-light text-center mh-100">
+    <h2> GIFT APP </h2>
+    <hr class="m-auto w-75 "/>
+
+    <div *ngFor="let item of option" class="text-center fs-5">
+        <li class=" my-2">
+            <a (click)="search( $event )" #txtHistory>
+                {{ item | titlecase }}
+            </a>
+        </li>
+        <hr class="m-auto w-75 ">
+    </div>
+</div>

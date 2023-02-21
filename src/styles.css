@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mh-100{
+    height: 100% !important;
+}
+
+li{
+    list-style: none;
+}
+

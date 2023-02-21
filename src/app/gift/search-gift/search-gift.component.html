@@ -1,0 +1,12 @@
+<div class="mt-5">
+    <div class="form-group mb-4 d-flex m-auto">
+        <input id="exampleFormControlInput1" #txtSearch (keyup.enter)="buscarGift()" type="text"
+         placeholder="Search Gift" class="form-control form-control-underlined text-center">
+
+        <div class="input-group-append">
+            <button id="button-addon1" (click)="buscarGift()" class="btn btn-link text-primary">
+                <i class="fa fa-search"></i>
+            </button>
+          </div>
+      </div>
+</div>

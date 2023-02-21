@@ -1,0 +1,16 @@
+<div class="row m-auto">
+  <app-search-gift class="header">
+    
+  </app-search-gift>
+
+  <div *ngFor="let item of data" class="col-4 my-3 animate__animated animate__bounceInUp">
+    <app-result [data]="item"></app-result>
+  </div>
+
+  <div class="alert alert-danger animate__animated animate__hinge" role="alert" 
+  *ngIf="data.length === 0">
+    <h1> No results! </h1>
+  </div>
+  
+</div>
+

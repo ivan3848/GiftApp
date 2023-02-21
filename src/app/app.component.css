@@ -1,0 +1,16 @@
+.page{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    grid-template-areas: "sidebar   content"
+
+}
+
+.page .sidebar{
+    background-color: #063970;
+    grid-area: sidebar;
+}
+
+.page {
+    height: 100vh;
+}
